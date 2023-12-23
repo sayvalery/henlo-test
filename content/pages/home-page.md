@@ -7,7 +7,7 @@ permalink: /
 thumbnail: ''
 blocks:
   - type: hero
-    title: Henlo.
+    title: Привет как дела.
     content: |-
       ## The most advanced starter for Gatsby & Netlify CMS.
 
