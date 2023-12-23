@@ -10,7 +10,7 @@ export default function ArticleCard({ data }) {
       </h2>
       <div className='prose mb-3 dark:prose-invert'>{post.excerpt}</div>
       <Link to={post.fields.slug}>
-        Read more <div className='sr-only'>about {post.frontmatter.title}</div>
+        Читать статью <div className='sr-only'>about {post.frontmatter.title}</div>
       </Link>
     </article>
   );

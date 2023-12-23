@@ -14,7 +14,6 @@ blocks:
       Extensible, block based starter for Netlify CMS.\
       Built with performance in mind, styled with TailwindCSS.
 
-      **Think lightweight WordPress.**
     variant: centered
     buttons:
       - button:
