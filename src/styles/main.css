@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Определение ключевых кадров анимации */
+@keyframes fadeInDown {
+    0% {
+      opacity: .3;
+      transform: translateX(5px) translateY(-15px) scale(.98);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) translateY(0) scale(1);
+    }
+  }
+  
+  /* Применение анимации к заголовкам */
+  h1, h2, h3, h4, h5, h6 {
+    animation: fadeInDown .25s cubic-bezier(0, 0, 0.31, 1.26) 0s forwards;
+    opacity: 0; /* Элементы изначально невидимы */
+  }
+  
+  /* Применение анимации к абзацам с задержкой */
+  p {
+    animation: fadeInDown .25s cubic-bezier(0, 0, 0.31, 1.26) .1s forwards; /* Задержка 1s */
+    opacity: 0; /* Элементы изначально невидимы */
+  }
