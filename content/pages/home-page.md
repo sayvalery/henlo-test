@@ -19,8 +19,8 @@ blocks:
     buttons:
       - button:
           variant: default
-          content: Documentation
-          url: https://github.com/clean-commit/gatsby-starter-henlo
+          content: Наш блог
+          url: /blog/
   - type: perks
     title: Features
     columns:
