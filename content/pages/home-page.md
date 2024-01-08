@@ -25,7 +25,7 @@ blocks:
     columns:
       - title: Manual Initialization
         content: Ditch yaml for CMS configuration, use JS instead
-      - title: Support For Local Development
+      - title: Карточка 23
         content: Develop & test Netlify CMS configuration locally.
       - title: Integrated Forms
         content: Create forms with Netlify CMS, powered by
